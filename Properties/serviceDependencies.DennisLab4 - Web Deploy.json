@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/dennissqlserver/databases/DennisLab4",
+      "type": "mssql.azure",
+      "connectionId": "Server=tcp:dennissqlserver.database.windows.net,1433;InitialCatalog=DennisLab4;PersistSecurityInfo=False;UserID=dennisadmin;Password=B0bb4R4@n;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;ConnectionTimeout=30;",
+      "secretStore": null
+    }
+  }
+}

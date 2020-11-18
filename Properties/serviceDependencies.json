@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "Server=tcp:dennissqlserver.database.windows.net,1433;InitialCatalog=DennisLab4;PersistSecurityInfo=False;UserID=dennisadmin;Password=B0bb4R4@n;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;ConnectionTimeout=30;"
+    }
+  }
+}
