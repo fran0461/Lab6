@@ -27,6 +27,7 @@ namespace Lab4TestNet
             Configuration = configuration;
         }
 
+        [Microsoft.AspNetCore.Mvc.HttpGet]
         public void ConfigureServices(IServiceCollection services)
         {
             var connection = Configuration.GetConnectionString("DefaultConnection");
@@ -47,6 +48,7 @@ namespace Lab4TestNet
 
         }
 
+        [Microsoft.AspNetCore.Mvc.HttpGet]
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
